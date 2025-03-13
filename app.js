@@ -7,7 +7,7 @@ function adicionarAmigo() {
         alert('Digite um nome válido!');
         return;
     }
-    
+    //Alteração nova
     listaAmigos.push(campo);
     atualizarLista();
     limparCampo();
